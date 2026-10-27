@@ -1,0 +1,42 @@
+# up down
+# import random   #랜덤 모듈
+#
+# answer = random.randint(1, 50)
+#
+# while True:
+#     x = int(input(" 1 ~ 50 사이의 숫자를 입력하세요"))
+#
+#     # 입력과 검증
+#     if not (1<=x<=50):
+#         print("wrong number")
+#         continue
+#     # 결과 출력
+#     if answer > x:
+#         print("up")
+#     elif answer < x:
+#         print("down")
+#     else:
+#         print("correct")
+#         break
+
+
+import random
+
+answer = random.randint(1, 50)
+
+while True:
+    x = int(input("what is your number?"))
+
+    if not (50<x<0):
+        print("wrong number")
+        continue
+
+    if answer > x:
+        print("up")
+    elif answer < x:
+        print("down")
+    else:
+        print("correct")
+        break
+
+

@@ -1,0 +1,41 @@
+
+# a = "Even"
+# b = "Odd"
+#
+# n = int(input("what is your number?"))
+#
+# if n < 0:
+#     if n%2 == 0:
+#         print(a)
+# elif n > 0:
+#     if n%2 == 0:
+#         print(a)
+# else:
+#     if n%2 == 1:
+#         print(b)
+
+
+
+
+
+# x = int(input())
+# y = int(input())
+# z = int(input())
+#
+# if x % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+#
+# if y % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+#
+# if z % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+#
+
+
